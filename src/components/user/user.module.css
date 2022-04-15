@@ -1,0 +1,11 @@
+.main {
+  cursor: pointer;
+}
+
+.active {
+  background-color: #424250;
+}
+
+.main:hover {
+  background-color: #424250;
+}

@@ -1,0 +1,9 @@
+.main {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: calc(100vh - 50px);
+  width: 20%;
+  max-width: 250px;
+  background-color: #33333d;
+}

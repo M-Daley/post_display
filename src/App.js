@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import HeaderBar from './components/header';
+import UserBar from './components/userBar';
+import PostPreview from './components/postPreview';
 import './App.css';
 
-function App() {
+const App = () => {
+  // Replace w/ React-Redux/Redux-Thunk Later
+  const [currentUser, setCurrentUser] = useState(1);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="appWrapper">
+      <HeaderBar />
+      <UserBar currentUser={currentUser} setCurrentUser={setCurrentUser} />
+      <PostPreview currentUser={currentUser} />
     </div>
   );
-}
+};
 
 export default App;

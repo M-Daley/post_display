@@ -1,0 +1,19 @@
+.container {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-40%);
+  height: calc(100vh - 100px);
+  width: 60%;
+  padding: 1rem;
+  background-color: #33333d;
+  float: right;
+  border-radius: 7px 7px 0 0;
+  overflow-y: auto;
+}
+
+.posts {
+  padding: 0.5rem;
+  border: 2px solid #424250;
+  border-radius: 7px;
+}
