@@ -1,5 +1,7 @@
 # Job Application Challenge
 
+https://postdashboard.herokuapp.com/
+
 Using jQuery or vanilla JS you will display each 'USER' in a table. When the user selects a 'USER' in the table, it will display all of the 'POSTS' that were created by that 'USER'. You have full freedom in how you accomplish the above objectives. You also have full freedom as far as design is concerned. Please do not spend more than 2 hours on this task. Once completed, please upload your code to a Github repo and send us the link via Indeed chat.
 
 ![Preview Picture](./readme/preview.png)
