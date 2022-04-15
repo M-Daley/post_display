@@ -12,8 +12,11 @@ Using jQuery or vanilla JS you will display each 'USER' in a table. When the use
 | Coding       | 1hr 15m  |                                  https://github.com/M-Daley/post_display                                   |
 | Interuptions |   10m    |
 
-## Area for Improvements
+## Areas for Improvements
 
-No Middleware nor Statemanagement systems in place aside from React's useState property which I prefer not using due to prop drilling.
+Things I would like to implement given more time.
 
-Removal of React framework in favor of PURE javascript as the challenge requested but due to time constraints and the boilerplate required for Vanilla JS taking up too much time for the coding aspect I didn't foresee having the necessary time to accomplish the given task.
+- Middleware to track API/CSS crashs.
+- Prepared Vanilla JS modules to reduce time consumption from writing/debugging boilerplate code.
+- Loading animation for unloaded content instead of dummy content.
+- CSS layouts for Tablet and Mobile breakpoints
